@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="920" viewBox="0 0 1080 920" role="img" aria-labelledby="title description">
+<title id="title">Local drafting, review, and retry</title>
+<desc id="description">Python asks Gemma 4 E2B to draft three replies. One Nimble request reviews all three drafts against the conversation and their original requirements. Python keeps accepted replies, asks Gemma to re-answer only a question selected for local revision using the same inputs, or flags a question for human input.</desc>
+<defs>
+ <marker id="blue-head" markerWidth="10" markerHeight="10" refX="8.7" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M1 1 L9 5 L1 9 Z" fill="#4565D8"/></marker>
+ <marker id="green-head" markerWidth="10" markerHeight="10" refX="8.7" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M1 1 L9 5 L1 9 Z" fill="#18775F"/></marker>
+ <marker id="blue-return" markerWidth="11" markerHeight="11" refX="8.5" refY="5.5" orient="auto" markerUnits="userSpaceOnUse"><path d="M1.5 1.5 L8.5 5.5 L1.5 9.5" fill="none" stroke="#4565D8" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></marker>
+ <marker id="green-return" markerWidth="11" markerHeight="11" refX="8.5" refY="5.5" orient="auto" markerUnits="userSpaceOnUse"><path d="M1.5 1.5 L8.5 5.5 L1.5 9.5" fill="none" stroke="#18775F" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></marker>
+</defs>
+<g font-family="Segoe UI, Arial, sans-serif">
+<rect width="1080" height="920" fill="#FFFFFF"/>
+
+<rect x="64" y="401" width="952" height="488" rx="13" fill="#FFFFFF" stroke="#D4DDE8" />
+<path d="M77 401 H1003 Q1016 401 1016 414 V443 H64 V414 Q64 401 77 401Z" fill="#F1F4F8"/>
+<rect x="65" y="539" width="950" height="223" rx="0" fill="#F6F8FF" stroke="none" />
+<line x1="64" y1="443" x2="1016" y2="443" stroke="#D4DDE8" stroke-width="1"  />
+<line x1="64" y1="538" x2="1016" y2="538" stroke="#CDD6E2" stroke-width="1.2" stroke-dasharray="5 5" />
+<line x1="64" y1="763" x2="1016" y2="763" stroke="#CDD6E2" stroke-width="1.2" stroke-dasharray="5 5" />
+<text x="85" y="428" fill="#5C6B80" font-size="14" font-weight="600" text-anchor="start" >For each question: follow one branch</text>
+<line x1="208" y1="74" x2="208" y2="888" stroke="#CFD8E4" stroke-width="1.5" stroke-dasharray="4 6" />
+<line x1="540" y1="74" x2="540" y2="888" stroke="#CFD8E4" stroke-width="1.5" stroke-dasharray="4 6" />
+<line x1="872" y1="74" x2="872" y2="888" stroke="#CFD8E4" stroke-width="1.5" stroke-dasharray="4 6" />
+<rect x="100" y="20" width="216" height="54" rx="9" fill="#1C304E" stroke="#1C304E" />
+<rect x="432" y="20" width="216" height="54" rx="9" fill="#EDF2FF" stroke="#CDD8FC" />
+<rect x="764" y="20" width="216" height="54" rx="9" fill="#EAF6F1" stroke="#B7DDCE" />
+<text x="208" y="52" fill="#FFFFFF" font-size="20" font-weight="600" text-anchor="middle" >Python</text>
+<text x="540" y="52" fill="#3654BC" font-size="20" font-weight="650" text-anchor="middle" >Gemma 4 E2B</text>
+<text x="872" y="52" fill="#17654E" font-size="20" font-weight="650" text-anchor="middle" >Nimble 9B</text>
+<rect x="535" y="143" width="10" height="65" rx="2" fill="#DDE6FF" stroke="#B7C6F1" />
+<rect x="216" y="94" width="316" height="41" rx="5" fill="#FFFFFF" stroke="none" />
+<text x="374" y="111" fill="#1B2B43" font-size="18" font-weight="600" text-anchor="middle" >Draft all three replies</text>
+<text x="374" y="131" fill="#5C6B80" font-size="12.5" font-weight="400" text-anchor="middle" >Source + instructions + questions + requirements</text>
+<line x1="208" y1="143" x2="534" y2="143" stroke="#4565D8" stroke-width="2.4"  marker-end="url(#blue-head)"/>
+<rect x="226" y="177" width="300" height="25" rx="5" fill="#FFFFFF" stroke="none" />
+<text x="374" y="195" fill="#41546F" font-size="16" font-weight="400" text-anchor="middle" >Three drafts (JSON)</text>
+<line x1="540" y1="208" x2="208" y2="208" stroke="#4565D8" stroke-width="1.9" stroke-dasharray="6 5" marker-end="url(#blue-return)"/>
+<rect x="867" y="293" width="10" height="64" rx="2" fill="#D1EDE2" stroke="#9ACDB8" />
+<rect x="284" y="236" width="512" height="44" rx="5" fill="#FFFFFF" stroke="none" />
+<text x="540" y="256" fill="#1B2B43" font-size="18" font-weight="600" text-anchor="middle" >Review all three drafts · one request</text>
+<text x="540" y="277" fill="#5C6B80" font-size="13" font-weight="400" text-anchor="middle" >Source + drafts + original questions and requirements</text>
+<line x1="208" y1="293" x2="866" y2="293" stroke="#18775F" stroke-width="2.4"  marker-end="url(#green-head)"/>
+<rect x="375" y="323" width="330" height="26" rx="5" fill="#FFFFFF" stroke="none" />
+<text x="540" y="342" fill="#41546F" font-size="16" font-weight="400" text-anchor="middle" >One action per draft</text>
+<line x1="872" y1="357" x2="208" y2="357" stroke="#18775F" stroke-width="1.9" stroke-dasharray="6 5" marker-end="url(#green-return)"/>
+<rect x="84" y="459" width="92" height="27" rx="6" fill="#E6F4EC" stroke="none" />
+<text x="96" y="477.5" fill="#25704E" font-size="13" font-weight="600" text-anchor="start" font-family="Consolas, monospace">ACCEPT</text>
+<line x1="208" y1="499" x2="236" y2="499" stroke="#A7B4C6" stroke-width="1.3" stroke-dasharray="3 3" />
+<rect x="236" y="480" width="248" height="38" rx="7" fill="#FFFFFF" stroke="#D6E0EA" />
+<text x="360" y="504" fill="#41546F" font-size="15.5" font-weight="400" text-anchor="middle" >Keep the original answer</text>
+<rect x="84" y="555" width="169" height="27" rx="6" fill="#E5EBFF" stroke="none" />
+<text x="96" y="573.5" fill="#3F5CC3" font-size="13" font-weight="600" text-anchor="start" font-family="Consolas, monospace">REVISE_LOCALLY</text>
+<rect x="535" y="655" width="10" height="63" rx="2" fill="#DDE6FF" stroke="#B7C6F1" />
+<rect x="216" y="598" width="316" height="44" rx="5" fill="#F6F8FF" stroke="none" />
+<text x="374" y="619" fill="#1B2B43" font-size="17.5" font-weight="600" text-anchor="middle" >Retry only this question</text>
+<text x="374" y="639" fill="#5C6B80" font-size="13" font-weight="400" text-anchor="middle" >Same inputs · one-question work list</text>
+<line x1="208" y1="655" x2="534" y2="655" stroke="#4565D8" stroke-width="2.4"  marker-end="url(#blue-head)"/>
+<rect x="249" y="684" width="250" height="26" rx="5" fill="#F6F8FF" stroke="none" />
+<text x="374" y="703" fill="#41546F" font-size="16" font-weight="400" text-anchor="middle" >One replacement draft</text>
+<line x1="540" y1="718" x2="208" y2="718" stroke="#4565D8" stroke-width="1.9" stroke-dasharray="6 5" marker-end="url(#blue-return)"/>
+<rect x="84" y="780" width="156" height="27" rx="6" fill="#FFF2D9" stroke="none" />
+<text x="96" y="798.5" fill="#8B651F" font-size="13" font-weight="600" text-anchor="start" font-family="Consolas, monospace">HUMAN_REVIEW</text>
+<line x1="208" y1="846" x2="236" y2="846" stroke="#A7B4C6" stroke-width="1.3" stroke-dasharray="3 3" />
+<rect x="236" y="827" width="248" height="38" rx="7" fill="#FFFFFF" stroke="#D6E0EA" />
+<text x="360" y="851" fill="#41546F" font-size="15.5" font-weight="400" text-anchor="middle" >Flag for human input</text>
+</g></svg>
